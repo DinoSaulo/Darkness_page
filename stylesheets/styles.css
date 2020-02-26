@@ -177,6 +177,7 @@ body {
     background-color: rgba(255,232,175,0.3);
     color: white;
     border: 2px solid #FFE8AF;
+    text-decoration:none;
 }
 
 .banner-container {
@@ -221,7 +222,6 @@ body {
     width: 49%;
 }
 
-
 .yellow-row{
     width: 25%;
     padding-bottom: 20px;
@@ -259,6 +259,82 @@ body {
     width: auto;
 }
 
+/* ---------------- sessão Nosso Time */
+#sessao_nosso_time {
+    width: 100%;
+    background-color: #24bec6;
+    padding-bottom: 50px;
+}
+
+.botoes_cidades {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.cidade {
+    margin: 10px 10px;
+}
+
+.nosso-time{
+    width: 80%;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.nosso-time-titulo {   
+    font-size: xxx-large;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    margin: 0px;
+}
+
+.card_pessoa {
+    height: 270px;
+    padding: 0px 10px;
+}
+
+.foto_pessoa {
+    width: 100%;
+}
+
+.detalhes_pessoa {
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.nome {    
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #259a9f;
+    margin: 20px 0px 15px 0px;
+}
+
+.telefone,
+.email {
+    color: #b3b3b3;
+    font-style: italic;
+}
+
+
+.yellow-row-2 {
+    width: 12%;
+    padding-bottom: 20px;
+}
+
+.yellow-row-2 > hr {
+    border-top: 3px solid #f9ca55;
+    margin-top: 8px;
+}
+
+/* --------------- */ 
 .form-titulo {
     font-size: 5.4rem;
     font-family: Noto Sans;
